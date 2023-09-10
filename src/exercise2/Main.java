@@ -41,7 +41,7 @@ public class Main {
         singerName.performForAudience(12);
         
         System.out.println("Post Performance- ");
-        Song newFavSong = new Song("You Are In Love", "Pop", "Taylo Swift");
+        Song newFavSong = new Song("You Are In Love", "Pop", "Taylor Swift");
         singerName.changeFavSong(newFavSong); 
         singerName.printSingerInfo();
     }
