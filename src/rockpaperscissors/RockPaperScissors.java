@@ -73,11 +73,13 @@ public class RockPaperScissors {
             switch (random) {
              case 1:
                 computerMove = rock;
+		break;
              case 2:
                 computerMove = paper;
+		break;
              case 3:
                 computerMove = scissors;
-            
+            	break;
             default:
                 break;
         }
